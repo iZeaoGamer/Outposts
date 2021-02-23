@@ -1,0 +1,19 @@
+---
+name: Outposts
+version: 1.0
+main: Tempetas\Outposts\Main
+api: 3.17.0
+depend:
+  - FactionsPro
+  - EconomyAPI
+commands:
+  outpost:
+    permission: outposts.create
+  routpost:
+    permission: outposts.remove
+permissions:
+  outposts.create:
+    default: op
+  outposts.remove:
+    default: op
+...

@@ -1,0 +1,17 @@
+#How many minutes does it require for an outpost to be fully captured
+minutes: 5
+#How often should a reward be given to a faction for having the outpost under control (in minutes)
+reward-interval: 20
+#Reward in $
+reward-amount: 10000
+#String displayed when the outpost is fully captured
+messages:
+  captured: "§l§6Captured by §c{faction}"
+  #String displayed when the outpost is being captured
+  capturing: "§l§6Captured by §c{faction}§6 | Being captured by §c{factionCapturing}§6 | {progress}%"
+  #Announcement for outposts capture progress being at 25% and 50%
+  half-captured-msg: "§a >> §6An outpost at §c{x} {z}§6 is currently being captured by §c{factionCapturing}§6 | {progress}%"
+  #Announcement that is shown when the outpost has been fully captured
+  captured-msg: "§a >> §6An outpost at §c{x} {z}§6 has been fully captured by §c{faction}"
+  #Announcement shown when the controlling faction gets rewarded
+  reward-msg: "§a >> §6An outpost at §c{x} {z}§6 is still captured and thus rewarded §c{faction}"
